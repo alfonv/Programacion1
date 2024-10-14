@@ -1,0 +1,26 @@
+package bucles;
+
+import java.util.Scanner;
+
+public class CadenaTextoEjercicioHasta0 {
+
+	public static void main(String[] args) {
+
+	Scanner sc = new Scanner (System.in);
+	String cadena;
+	
+	do {
+	System.out.println("Cadena: ");
+	cadena = sc.nextLine();
+	if(cadena.length()% 2==0) {
+		System.out.println("Par");
+	}else {
+		System.out.println("Impar");
+	}
+	}while (cadena.equals("Salir"));
+	
+		sc.close();
+
+	}
+
+}

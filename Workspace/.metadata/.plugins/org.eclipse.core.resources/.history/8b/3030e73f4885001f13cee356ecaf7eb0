@@ -1,0 +1,38 @@
+package operacionesaritmeticas;
+
+import java.util.Scanner;
+
+public class EjercicioDoWhile_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Scanner sc = new Scanner (System.in);
+	int num;
+	int contador= 0;
+	int a = 0;
+	do {
+		System.out.println("Numero: ");
+		num = sc.nextInt();
+		String s1;
+		if (a % 2 == 0) {
+			s1 = "PAR";
+		} else {
+			if(a % 3 ==0) {
+			s1 = "IMPAR";
+			System.out.println(s1);
+		}
+		}
+		
+		System.out.println(contador++);
+		
+	} while (num != 0 && contador < 5 );
+	
+	System.out.println("Has introducido: " + contador);
+	
+	
+	
+	sc.close();
+
+}
+}

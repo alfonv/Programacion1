@@ -1,0 +1,22 @@
+package bucles;
+
+import java.util.Scanner;
+
+public class HolaAlReves {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Cadena: ");
+		String cadena = sc.nextLine();
+	   
+		int posicion = 4;
+	    while (posicion < cadena.length()){
+	    	System.out.println(cadena.charAt(posicion));
+	    	posicion++;
+	    }
+	}
+
+}

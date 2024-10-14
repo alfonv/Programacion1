@@ -1,0 +1,22 @@
+package operacionesaritmeticas;
+
+import java.util.Scanner;
+
+public class AbecedarioBucle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		int a = 65;
+		int c = 91;
+		
+		do { 
+			System.out.println("abecedario es: ");
+			
+			
+		} while (a <= 91 );
+
+	}
+
+}
