@@ -1,0 +1,23 @@
+package clases;
+
+import java.util.Scanner;
+
+public class PedirAlUsuarioHasta0 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int num;
+		String cadena;
+		
+		int last = 0;
+		num = sc.nextInt();
+		do {
+		System.out.println("Introduzca un numero: ");
+		if (num != 0) {
+			num++;
+		}
+		}while (num == 0);
+			sc.close();
+		}
+	}
