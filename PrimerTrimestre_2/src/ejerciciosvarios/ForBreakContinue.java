@@ -14,7 +14,7 @@ public class ForBreakContinue {
 		System.err.println("CONTINUE");
 		for (int i = 1; i <= 100; i++) {
 			if (i %2 != 0) {
-				continue; //continue vuelve al for sin leer Syso
+				continue; //continue vuelve al for se salta Syso del medio
 			}
 			System.out.println(i);
 		}
