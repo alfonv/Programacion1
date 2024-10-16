@@ -21,7 +21,7 @@ public class ObteneredadDePersona {
 		
 		switch (edad) {
 		case
-			edad = dia + mes + año:
+			 = dia + mes + año:
 			break;
 		default:
 			opcionCorrecta = false;
