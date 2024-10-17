@@ -14,7 +14,7 @@ public class CadenaTextoEjercicioHasta0 {
 			cadena = sc.nextLine();
 			if (cadena.length() > 0 && !cadena.equals("Salir")) {
 				if (cadena.length()% 2 == 0 ) {
-				System.out.println("La longitus es " + cadena.length()+ " y es par");
+				System.out.println("La longitud es " + cadena.length()+ " y es par");
 			} else {
 				System.out.println("La longitud es "+ cadena.length()+ " y es impar");
 			}

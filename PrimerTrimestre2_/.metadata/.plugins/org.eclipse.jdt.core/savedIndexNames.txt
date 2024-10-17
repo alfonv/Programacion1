@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\afvga\OneDrive - Cesur-GCoremsa\ProgramaciónOneDrive\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2325379431.index
-3529039685.index

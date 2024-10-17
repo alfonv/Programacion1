@@ -20,7 +20,7 @@ public class Ejercicio2Teams1410 {
 			}
 		}while (numero !=0);
 		
-		System.out.println("Se ha introducido" + contador + "numero");
+		System.out.println("Se ha introducido " + contador + " numero ");
 		System.out.println("El resultado de la multiplicación es " + resultado);
 		sc.close();
 			}
