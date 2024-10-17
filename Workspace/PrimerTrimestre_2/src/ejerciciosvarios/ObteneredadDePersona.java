@@ -12,7 +12,7 @@ public class ObteneredadDePersona {
 		System.out.println("Seleccione fecha de nacimiento: ");
 		String nacimiento=sc.nextLine();
 		
-		System.out.println("1 o +");
+		/*System.out.println("1 o +");
 		int dia = sc.nextInt();
 		int mes= sc.nextInt();
 		int año = sc.nextInt();
@@ -31,7 +31,7 @@ public class ObteneredadDePersona {
 		}else {
 			System.err.println("Opcion no correcta: ");
 		}
-		}
+		}*/
 	}
 }
 	
