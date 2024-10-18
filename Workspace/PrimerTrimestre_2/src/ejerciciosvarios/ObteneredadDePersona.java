@@ -11,7 +11,6 @@ public class ObteneredadDePersona {
 		String fecha ="16/10/2024";
 		System.out.println("Seleccione fecha de nacimiento: ");
 		String nacimiento=sc.nextLine();
-		
 		/*System.out.println("1 o +");
 		int dia = sc.nextInt();
 		int mes= sc.nextInt();
