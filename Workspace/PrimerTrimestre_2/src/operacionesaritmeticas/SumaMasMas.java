@@ -1,4 +1,4 @@
-package operacionesaritmeticas;
+ package operacionesaritmeticas;
 
 public class SumaMasMas {
 
