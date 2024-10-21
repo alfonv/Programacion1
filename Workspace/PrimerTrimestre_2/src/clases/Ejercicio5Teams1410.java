@@ -16,7 +16,7 @@ public class Ejercicio5Teams1410 {
         int numeroAleatorio = (int) ((range * Math.random()) + min);
         int numeroUsuario;
         int contador = 0; 
-        System.out.println(numeroAleatorio);
+       //System.out.println(numeroAleatorio);
         do {
 	        System.out.println("Introduce un número entre el 0 y el 100:  ");
 	        numeroUsuario = sc.nextInt();

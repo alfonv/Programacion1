@@ -7,7 +7,7 @@ public class EjercicioDoWhile_1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Scanner sc = new Scanner(System.in);
+ 		Scanner sc = new Scanner(System.in);
 		int num;
 		int contadorPar = 0;
 		int contadorImpar = 0;
