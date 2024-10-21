@@ -1,0 +1,22 @@
+package ejerciciosvarios;
+
+import java.util.Scanner;
+
+public class NumerosPrimosOCompuestos {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Numero: ");
+		int cadena = sc.nextInt();
+		int contador = 1;
+
+		for (int i = contador%cadena; i <= 100; i += 1) {
+			System.out.println(i);
+			contador++;
+		}
+		System.out.println("Los numeros primos son: " + contador);
+		sc.close();
+	}
+
+}

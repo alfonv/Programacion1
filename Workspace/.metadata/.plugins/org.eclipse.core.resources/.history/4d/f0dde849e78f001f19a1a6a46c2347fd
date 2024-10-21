@@ -1,0 +1,20 @@
+package ejerciciosvarios;
+
+import java.util.Scanner;
+
+public class EjercicioSencilloFor {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Indique un número: ");
+		String cadena = sc.nextLine();
+		
+		for(int posicion= cadena.length()-1;posicion >=0;posicion--) {
+			System.out.println(cadena.charAt(posicion));
+		}
+		System.out.println("El factorial es: "+ cadena.length());
+		sc.close();
+	}
+
+}

@@ -1,0 +1,10 @@
+package ejerciciosvarios;
+
+public class EjercicioSencilloFor {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

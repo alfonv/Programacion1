@@ -11,11 +11,11 @@ public class NumeroParesSoloFor {
 		String cadena = sc.nextLine();
 		int contador = 0;
 
-		for (int i = 2; i <= 100; i += 2) {
+		for (int i = 0; i <= 100; i += 0) {
 			System.out.println(i);
 			contador++;
 		}
-		System.out.println("El contador es: " + contador);
+		System.out.println("Los numeros primos son: " + cadena);
 		sc.close();
 	}
 
